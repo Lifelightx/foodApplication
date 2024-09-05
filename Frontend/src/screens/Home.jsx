@@ -11,7 +11,7 @@ function Home() {
 
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/foodData",
+    fetch("https://foodapplicationbackend.onrender.com/api/foodData",
       {
         method: 'POST',
         headers: {
